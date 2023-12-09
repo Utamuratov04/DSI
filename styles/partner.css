@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+/* HEADER START */
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px ;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header-row{
+ display: flex;
+ align-items: center;
+ gap: 108px;
+}
+.header-link{
+    color: rgba(31, 46, 53, 0.80);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo{
+ display: flex;
+
+ 
+}
+.dwidasa{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143.187%; /* 14.319px */
+    letter-spacing: 0.65px;
+}
+.samsara{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+.indonesia{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.header-navbar{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+.rasm{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+/* HEADER END */
+/* MAIN START */
+.main{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+/* MAIN-1 START */
+.main-1{
+    width: 1440px;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-1-text{
+    width: 700px;
+    height: 204px;
+
+}
+.text1{
+    color: #30444E;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%;
+}
+.text2{
+    color: #30444E;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.688%;
+}
+.main-1-image{
+    width: 606.236px;
+    height: 359.805px;
+    flex-shrink: 0;
+    padding-top: 105px;
+}
+.main-chiziq{
+    width: 1440px;
+    height: 17px;
+    background-color: #EE4248;
+}
+
+/* MAIN-1 END */
+/* MAIN-2 START */
+.main-2{
+    width: 226px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-2-text{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 50.648px*/
+}
+/* MAIN-2 END */
+/* MAIN-3 START */
+.main-3{
+    width: 1440px;
+    height: 526px;
+    flex-shrink: 0;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+}
+.main-3-top{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 45.02px */
+}
+.main-3-bottom{
+    width: 570px;
+    height: 409px;
+}
+.bottom-p{
+    color: #EE4248;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+}
+.bottom-p1{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+/* MAIN-3 END */
+/* MAIN-4 START */
+.main-4{
+    width: 1440px;
+    height: 835px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+}
+.main-4-top{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 45.02px */
+}
+.main-4-bottom{
+    width: 570px;
+    height: 100%;
+}
+.main-4-bottom-pr{
+    color: #EE4248;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+}
+.main-4-bottom-p{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+/* MAIN-4 END */
+/* MAIN-5 START */
+.main-5{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    gap: 95px;
+}
+.main-5-top{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 45.02px */
+}
+.main-5-bottom{
+    width: 570px;
+    height: 100%;
+    
+}
+.bottom-p-r{
+    color: #EE4248;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+}
+.main-5-bottom-p{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+/* MAIN-5 END */
+/* MAIN-6 START */
+.main-6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* MAIN-6 END */
+/* MAIN-7 START */
+.main-7{
+    width: 1440px;
+    height: 350px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 145px;
+}
+.main-7-left{
+    width: 530px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 164px;
+}
+.main-7-right-text{
+    width: 540px;
+    height: 288px;
+    display: inline-flex;
+    padding-top: 21px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 19px;
+}
+.right-text1{
+    color: var(--light-black, #373F41);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.2px;
+}
+.right-text2{
+    color: #30444E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.1px;
+}
+/* MAIN-7 END */
+/* MAINNING OXIRI START */
+.mainning-oxiri{
+    width: 100%;
+    height: 188px;
+    display: flex;
+    gap: 47px;
+}
+.DSI{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.DSI-logo{
+  display: flex;  
+}
+.PTD{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.date{
+    color: #404649;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */  
+}
+.contact{
+    width: 244px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-text{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.number{
+    width: 269px;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.phone{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */
+}
+.linklar{
+    flex: 1 1 auto;
+    padding-top: 35px;
+    gap: 17px;
+}
+.image{
+    display: flex;
+    gap: 25px;
+}
+.images{
+    display: flex;
+    gap: 25px;
+}
+/* MAINNING OXIRI END */
+
+/* MAIN END */
+/* FOOTER START */
+.footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #EE4248;
+}
+.footer-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* FOOTER END */

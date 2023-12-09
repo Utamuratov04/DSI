@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 1117px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     gap: 100px;
+}
+/* header start */
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px ;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header-row{
+ display: flex;
+ align-items: center;
+ gap: 108px;
+}
+.header-link{
+    color: rgba(31, 46, 53, 0.80);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo{
+ display: flex;
+ 
+}
+.dwidasa{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143.187%; /* 14.319px */
+    letter-spacing: 0.65px;
+}
+.samsara{
+    color: rgba(38, 50, 56, 0.80);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+.indonesia{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.header-navbar{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+.rasm{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* header end */
+
+/* main start */
+ .main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+ }
+ /* MAIN-1 START */
+ .main-1{
+  width: 100%;
+  height: 368px;
+  display: flex;
+  padding: 82px 161px 82px 160px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(242, 242, 242, 0.65);
+ }
+ .main-left{
+    width: 700px;
+    height: 204px;
+    padding-top: 35px;
+ }
+ .left-text{
+    color: #30444E;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.688%; /* 67.53px */
+ }
+ .left-text1{
+    color: #30444E;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.688%;
+ }
+ .main-2{
+    width: 579px;
+    height: 45px;
+ }
+ .text{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 45.02px */
+ }
+ /* MAIN-1 END */
+ /* MAIN -2 START */
+ .main-2{
+    width: 579px;
+    height: 45px;
+ }
+ .text{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.688%; /* 45.02px */
+ }
+ /* MAIN -2 END */
+ /* MAIN-3 START */
+ .main-3{
+    width: 100%;
+    height: 475px;
+ }
+ .text2{
+    color: #263238;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 25.324px */
+ }
+ /* MAIN-3 END */
+ /* MAIN-ROW START */
+ .main-row{
+ width: 100%;
+ height: 500px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ /* MAIN-ROW END */
+ /* MAIN-4 START */
+ .main-4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ /* MAIN-4 END */
+ /* MAIN-5 START */
+ .main-5{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+ }
+.contact-text{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.688%; /* 45.02px */
+}
+.map{
+    display: flex;
+    gap: 64px;
+}
+.malumot{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.alamat{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.alamatt{
+    display: flex;
+    flex-direction: column;
+}
+.almati-text{
+    color: #1F2E35;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 191.667% */
+}
+.almati-text1{
+    color: #30444E;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.email{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.telpon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ /* MAIN-5 END */
+ /* MAINNING OXIRI START */
+.mainning-oxiri{
+    width: 100%;
+    height: 188px;
+    display: flex;
+    gap: 47px;
+}
+.DSI{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.DSI-logo{
+  display: flex;  
+}
+.PTD{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.date{
+    color: #404649;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */  
+}
+.contact{
+    width: 244px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-text{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.number{
+    width: 269px;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.phone{
+    color: #263238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%; /* 26.854px */
+}
+.linklar{
+    flex: 1 1 auto;
+    padding-top: 35px;
+    gap: 17px;
+}
+.image{
+    display: flex;
+    gap: 25px;
+}
+.images{
+    display: flex;
+    gap: 25px;
+}
+/* MAINNING OXIRI END */
+
+/* main end */
+
+/* footer start */
+.footer{
+    background-color: #EE4248;
+    padding: 17px 0;
+    text-align: center;
+}
+.footer-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+/* footer end */
+
