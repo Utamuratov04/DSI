@@ -19,7 +19,9 @@ button{
     flex-direction: column;
 }
 .container{
-    width: 1117px;
+    width:100%;
+    max-width: 1157px;
+    padding: 0 20px;
      margin: 0 auto;
      display: flex;
      flex-direction: column;
